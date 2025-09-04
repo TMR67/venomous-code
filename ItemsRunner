@@ -1,6 +1,0 @@
-class ItemsRunner{
-public static void main(String[] args){
-Tree.book();
-System.out.println("types of items");
-}
-}
