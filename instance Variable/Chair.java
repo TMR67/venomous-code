@@ -1,9 +1,9 @@
 class Chair {
     public int legs = 4;
     public String material = "Wood";
-    public char type = 'O'; // O = Office
+    public char type = 'O';
     public boolean hasCushion = true;
-    public float height = 1.2f; // meters
+    public float height = 1.2f; 
     public double price = 3500.75;
     public long productId = 223344556677L;
 

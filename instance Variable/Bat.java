@@ -1,9 +1,9 @@
 class Bat {
     public int size = 6;
     public String brand = "SG";
-    public char type = 'C'; // C = Cricket
+    public char type = 'C'; 
     public boolean englishWillow = true;
-    public float weight = 1.3f; // kg
+    public float weight = 1.3f; 
     public double price = 3499.99;
     public long productCode = 665544332211L;
 
