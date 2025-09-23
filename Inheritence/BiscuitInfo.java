@@ -23,7 +23,12 @@ class BiscuitInfo {
     public static void specialEdition() {
         System.out.println("Birthday Cake");
     }
+	    public static void newBrand() {
+        System.out.println("Parle");
+		}
+	public static void energy() {
+    System.out.println("445");
 }
-
+}
 
 

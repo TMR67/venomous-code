@@ -9,5 +9,7 @@ class BiscuitInfoRunner {
         snack.isCreamFilled();
         snack.caloriesPerServing();
         snack.specialEdition();
+		snack.newBrand();
+		snack.energy();
     }
 }
