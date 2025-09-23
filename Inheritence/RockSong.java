@@ -1,0 +1,2 @@
+class RockSong extends Song {
+}
