@@ -1,0 +1,2 @@
+class SmartTV extends Television {
+}
