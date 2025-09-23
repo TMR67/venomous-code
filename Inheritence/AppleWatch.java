@@ -1,0 +1,2 @@
+class AppleWatch extends Smartwatch {
+}
