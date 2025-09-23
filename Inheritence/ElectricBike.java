@@ -1,0 +1,2 @@
+class ElectricBike extends BikeInfo {
+}
