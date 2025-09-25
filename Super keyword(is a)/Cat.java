@@ -1,12 +1,3 @@
-class Animal {
-    public String species;
-    public double weightKg;
-    public long animalId;
-    public float bodyTempCelsius;
-    public boolean isNocturnal;
-    public char diet; 
-    public int lifespanYears; 
-}
 class Cat extends Animal {
     public String breed;
     public String ownerName;
@@ -44,15 +35,5 @@ class Cat extends Animal {
         System.out.println("Weight: " + super.weightKg + " kg | Age: " + this.ageYears + " years");
         System.out.println("Lifespan: " + super.lifespanYears + " years | Diet: " + super.diet);
         System.out.println("Owner: " + this.ownerName + " | Is Indoor: " + this.isIndoor);
-    }
-}
-
-class AnimalRunner {
-    public static void main(String[] args) {
-        Cat myCat = new Cat("Felis catus", 4.5, 555L, 38.0f, true, 'C',
-                            15,
-                            "Siamese", "John Doe", 3,
-                            9.5f, 987654321L, true, 'T');
-        myCat.displayCat();
     }
 }
